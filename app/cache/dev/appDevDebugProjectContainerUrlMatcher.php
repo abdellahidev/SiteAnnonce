@@ -114,9 +114,27 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
             return array (  '_controller' => 'AccueilBundle\\Controller\\AccueilController::indexAction',  '_route' => 'accueil',);
         }
 
-        // deposer
-        if ($pathinfo === '/deposer') {
-            return array (  '_controller' => 'AccueilBundle\\Controller\\DeposerController::indexAction',  '_route' => 'deposer',);
+        if (0 === strpos($pathinfo, '/de')) {
+            // demandes
+            if ($pathinfo === '/demandes') {
+                return array (  '_controller' => 'AccueilBundle\\Controller\\DemandesController::indexAction',  '_route' => 'demandes',);
+            }
+
+            // deposer
+            if ($pathinfo === '/deposer') {
+                return array (  '_controller' => 'AccueilBundle\\Controller\\DeposerController::indexAction',  '_route' => 'deposer',);
+            }
+
+        }
+
+        // mesannonces
+        if ($pathinfo === '/mesannonces') {
+            return array (  '_controller' => 'AccueilBundle\\Controller\\MesannoncesController::indexAction',  '_route' => 'mesannonces',);
+        }
+
+        // offres
+        if ($pathinfo === '/offres') {
+            return array (  '_controller' => 'AccueilBundle\\Controller\\OffresController::indexAction',  '_route' => 'offres',);
         }
 
         // homepage
