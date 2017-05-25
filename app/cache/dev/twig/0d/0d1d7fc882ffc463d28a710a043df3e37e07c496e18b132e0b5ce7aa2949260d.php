@@ -22,24 +22,24 @@ class __TwigTemplate_6d23c65c4bcabe9ae7e74f4efa4de08813aff902071292bf3a90d0234af
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_a4cf7e7a55a2a13ee8a1cc4d27fbbfb4ccee058ee2ca0dcd81825fd3d5600f98 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_a4cf7e7a55a2a13ee8a1cc4d27fbbfb4ccee058ee2ca0dcd81825fd3d5600f98->enter($__internal_a4cf7e7a55a2a13ee8a1cc4d27fbbfb4ccee058ee2ca0dcd81825fd3d5600f98_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "AccueilBundle:Deposer:deposer.html.twig"));
+        $__internal_e49e2cbd8a13fbf336df5f0539df8ccf91fa4b0b703a423d0132564973bae637 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_e49e2cbd8a13fbf336df5f0539df8ccf91fa4b0b703a423d0132564973bae637->enter($__internal_e49e2cbd8a13fbf336df5f0539df8ccf91fa4b0b703a423d0132564973bae637_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "AccueilBundle:Deposer:deposer.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_a4cf7e7a55a2a13ee8a1cc4d27fbbfb4ccee058ee2ca0dcd81825fd3d5600f98->leave($__internal_a4cf7e7a55a2a13ee8a1cc4d27fbbfb4ccee058ee2ca0dcd81825fd3d5600f98_prof);
+        $__internal_e49e2cbd8a13fbf336df5f0539df8ccf91fa4b0b703a423d0132564973bae637->leave($__internal_e49e2cbd8a13fbf336df5f0539df8ccf91fa4b0b703a423d0132564973bae637_prof);
 
     }
 
     // line 3
     public function block_body($context, array $blocks = array())
     {
-        $__internal_15c1e490222d17956b71de6919386ac4077ecfd1b997b5bddf8764768bb2b44e = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_15c1e490222d17956b71de6919386ac4077ecfd1b997b5bddf8764768bb2b44e->enter($__internal_15c1e490222d17956b71de6919386ac4077ecfd1b997b5bddf8764768bb2b44e_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_2755110877945d7c7c6b44dc2b83ee12e5bb15deb71acbeca2037a9d2954ae73 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_2755110877945d7c7c6b44dc2b83ee12e5bb15deb71acbeca2037a9d2954ae73->enter($__internal_2755110877945d7c7c6b44dc2b83ee12e5bb15deb71acbeca2037a9d2954ae73_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
         // line 4
         echo "    
-    <!-- spacer section -->
+<!-- spacer section -->
 <section class=\"spacer green\">
 <div class=\"container\">
     <div class=\"row\">
@@ -65,7 +65,7 @@ class __TwigTemplate_6d23c65c4bcabe9ae7e74f4efa4de08813aff902071292bf3a90d0234af
         
         <div class=\"span6\">
             <h4>Formuaire</h4> 
-                     Mettre ici le formulaire d'annonce 
+                     Mettre ici le formulaire d'annonce à tester plus tard biensur dededededed
         </div>
     </div>  
 </div>
@@ -75,21 +75,21 @@ class __TwigTemplate_6d23c65c4bcabe9ae7e74f4efa4de08813aff902071292bf3a90d0234af
 
 ";
         
-        $__internal_15c1e490222d17956b71de6919386ac4077ecfd1b997b5bddf8764768bb2b44e->leave($__internal_15c1e490222d17956b71de6919386ac4077ecfd1b997b5bddf8764768bb2b44e_prof);
+        $__internal_2755110877945d7c7c6b44dc2b83ee12e5bb15deb71acbeca2037a9d2954ae73->leave($__internal_2755110877945d7c7c6b44dc2b83ee12e5bb15deb71acbeca2037a9d2954ae73_prof);
 
     }
 
     // line 41
     public function block_stylesheets($context, array $blocks = array())
     {
-        $__internal_5e3d18136529d6a8ca003b0a7dda82ce4f95a0dfead2f8529efeb32c4f5db918 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_5e3d18136529d6a8ca003b0a7dda82ce4f95a0dfead2f8529efeb32c4f5db918->enter($__internal_5e3d18136529d6a8ca003b0a7dda82ce4f95a0dfead2f8529efeb32c4f5db918_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "stylesheets"));
+        $__internal_d61b8c12051ff256d6052954f0fbe57ec24605d7421df5a03c808937c6a701d0 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_d61b8c12051ff256d6052954f0fbe57ec24605d7421df5a03c808937c6a701d0->enter($__internal_d61b8c12051ff256d6052954f0fbe57ec24605d7421df5a03c808937c6a701d0_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "stylesheets"));
 
         // line 42
         echo "
 ";
         
-        $__internal_5e3d18136529d6a8ca003b0a7dda82ce4f95a0dfead2f8529efeb32c4f5db918->leave($__internal_5e3d18136529d6a8ca003b0a7dda82ce4f95a0dfead2f8529efeb32c4f5db918_prof);
+        $__internal_d61b8c12051ff256d6052954f0fbe57ec24605d7421df5a03c808937c6a701d0->leave($__internal_d61b8c12051ff256d6052954f0fbe57ec24605d7421df5a03c808937c6a701d0_prof);
 
     }
 
@@ -122,7 +122,7 @@ class __TwigTemplate_6d23c65c4bcabe9ae7e74f4efa4de08813aff902071292bf3a90d0234af
 
 {% block body %}
     
-    <!-- spacer section -->
+<!-- spacer section -->
 <section class=\"spacer green\">
 <div class=\"container\">
     <div class=\"row\">
@@ -148,7 +148,7 @@ class __TwigTemplate_6d23c65c4bcabe9ae7e74f4efa4de08813aff902071292bf3a90d0234af
         
         <div class=\"span6\">
             <h4>Formuaire</h4> 
-                     Mettre ici le formulaire d'annonce 
+                     Mettre ici le formulaire d'annonce à tester plus tard biensur dededededed
         </div>
     </div>  
 </div>

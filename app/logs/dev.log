@@ -566,6 +566,7 @@
 [2017-05-25 17:34:51] request.ERROR: Uncaught PHP Exception Symfony\Component\HttpKernel\Exception\NotFoundHttpException: "No route found for "GET /img/blog/img2.jpg" (from "http://localhost/SiteAnnonce/web/app_dev.php/")" at /var/www/html/SiteAnnonce/app/cache/dev/classes.php line 4710 {"exception":"[object] (Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException(code: 0): No route found for \"GET /img/blog/img2.jpg\" (from \"http://localhost/SiteAnnonce/web/app_dev.php/\") at /var/www/html/SiteAnnonce/app/cache/dev/classes.php:4710, Symfony\\Component\\Routing\\Exception\\ResourceNotFoundException(code: 0):  at /var/www/html/SiteAnnonce/app/cache/dev/appDevDebugProjectContainerUrlMatcher.php:131)"} []
 [2017-05-25 17:34:51] request.ERROR: Uncaught PHP Exception Symfony\Component\HttpKernel\Exception\NotFoundHttpException: "No route found for "GET /img/blog/img3.jpg" (from "http://localhost/SiteAnnonce/web/app_dev.php/")" at /var/www/html/SiteAnnonce/app/cache/dev/classes.php line 4710 {"exception":"[object] (Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException(code: 0): No route found for \"GET /img/blog/img3.jpg\" (from \"http://localhost/SiteAnnonce/web/app_dev.php/\") at /var/www/html/SiteAnnonce/app/cache/dev/classes.php:4710, Symfony\\Component\\Routing\\Exception\\ResourceNotFoundException(code: 0):  at /var/www/html/SiteAnnonce/app/cache/dev/appDevDebugProjectContainerUrlMatcher.php:131)"} []
 [2017-05-25 17:34:51] request.ERROR: Uncaught PHP Exception Symfony\Component\HttpKernel\Exception\NotFoundHttpException: "No route found for "GET /img/blog/img4.jpg" (from "http://localhost/SiteAnnonce/web/app_dev.php/")" at /var/www/html/SiteAnnonce/app/cache/dev/classes.php line 4710 {"exception":"[object] (Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException(code: 0): No route found for \"GET /img/blog/img4.jpg\" (from \"http://localhost/SiteAnnonce/web/app_dev.php/\") at /var/www/html/SiteAnnonce/app/cache/dev/classes.php:4710, Symfony\\Component\\Routing\\Exception\\ResourceNotFoundException(code: 0):  at /var/www/html/SiteAnnonce/app/cache/dev/appDevDebugProjectContainerUrlMatcher.php:131)"} []
+<<<<<<< HEAD
 [2017-05-25 18:28:29] request.INFO: Matched route "accueil". {"route_parameters":{"_controller":"AccueilBundle\\Controller\\AccueilController::indexAction","_route":"accueil"},"request_uri":"http://localhost/SiteAnnonce/web/app_dev.php/"} []
 [2017-05-25 18:28:29] security.INFO: Populated the TokenStorage with an anonymous Token. [] []
 [2017-05-25 18:28:31] request.INFO: Matched route "_wdt". {"route_parameters":{"_controller":"web_profiler.controller.profiler:toolbarAction","token":"7cddea","_route":"_wdt"},"request_uri":"http://localhost/SiteAnnonce/web/app_dev.php/_wdt/7cddea"} []
@@ -784,3 +785,21 @@
 [2017-05-25 19:41:49] request.INFO: Matched route "offres". {"route_parameters":{"_controller":"AccueilBundle\\Controller\\OffresController::indexAction","_route":"offres"},"request_uri":"http://localhost/SiteAnnonce/web/app_dev.php/offres"} []
 [2017-05-25 19:41:50] security.INFO: Populated the TokenStorage with an anonymous Token. [] []
 [2017-05-25 19:41:50] request.INFO: Matched route "_wdt". {"route_parameters":{"_controller":"web_profiler.controller.profiler:toolbarAction","token":"066f27","_route":"_wdt"},"request_uri":"http://localhost/SiteAnnonce/web/app_dev.php/_wdt/066f27"} []
+=======
+<<<<<<< HEAD
+[2017-05-25 19:04:01] php.DEBUG: unlink(/var/www/html/SiteAnnonce/app/cache/de~/profiler/b3/a6/2fa6b3): Permission denied {"type":2,"file":"/var/www/html/SiteAnnonce/vendor/symfony/symfony/src/Symfony/Component/Filesystem/Filesystem.php","line":178,"level":28928} []
+[2017-05-25 19:05:05] php.DEBUG: unlink(/var/www/html/SiteAnnonce/app/cache/de~/profiler/b3/a6/2fa6b3): Permission denied {"type":2,"file":"/var/www/html/SiteAnnonce/vendor/symfony/symfony/src/Symfony/Component/Filesystem/Filesystem.php","line":178,"level":28928} []
+[2017-05-25 19:06:30] php.DEBUG: unlink(/var/www/html/SiteAnnonce/app/cache/de~/profiler/b3/a6/2fa6b3): Permission denied {"type":2,"file":"/var/www/html/SiteAnnonce/vendor/symfony/symfony/src/Symfony/Component/Filesystem/Filesystem.php","line":178,"level":28928} []
+=======
+[2017-05-25 18:57:41] request.INFO: Matched route "deposer". {"route_parameters":{"_controller":"AccueilBundle\\Controller\\DeposerController::indexAction","_route":"deposer"},"request_uri":"http://localhost/SiteAnnonce/web/app_dev.php/deposer"} []
+[2017-05-25 18:57:41] security.INFO: Populated the TokenStorage with an anonymous Token. [] []
+[2017-05-25 18:57:41] request.INFO: Matched route "_wdt". {"route_parameters":{"_controller":"web_profiler.controller.profiler:toolbarAction","token":"714253","_route":"_wdt"},"request_uri":"http://localhost/SiteAnnonce/web/app_dev.php/_wdt/714253"} []
+[2017-05-25 18:57:42] request.INFO: Matched route "deposer". {"route_parameters":{"_controller":"AccueilBundle\\Controller\\DeposerController::indexAction","_route":"deposer"},"request_uri":"http://localhost/SiteAnnonce/web/app_dev.php/deposer"} []
+[2017-05-25 18:57:42] security.INFO: Populated the TokenStorage with an anonymous Token. [] []
+[2017-05-25 18:57:43] request.INFO: Matched route "_wdt". {"route_parameters":{"_controller":"web_profiler.controller.profiler:toolbarAction","token":"2fa6b3","_route":"_wdt"},"request_uri":"http://localhost/SiteAnnonce/web/app_dev.php/_wdt/2fa6b3"} []
+<<<<<<< HEAD
+>>>>>>> bara
+=======
+[2017-05-25 19:23:10] php.DEBUG: unlink(/var/www/html/SiteAnnonce/app/cache/de~/profiler/b3/a6/2fa6b3): Permission denied {"type":2,"file":"/var/www/html/SiteAnnonce/vendor/symfony/symfony/src/Symfony/Component/Filesystem/Filesystem.php","line":178,"level":28928} []
+>>>>>>> bara
+>>>>>>> d8f7091d66640003f772e8a6d1b1a60437bf9864

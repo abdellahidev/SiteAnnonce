@@ -762,6 +762,7 @@ cba77e,127.0.0.1,GET,http://localhost/SiteAnnonce/web/app_dev.php/img/works/10.p
 b7ccf2,127.0.0.1,GET,http://localhost/SiteAnnonce/web/app_dev.php/img/blog/img2.jpg,1495726492,,404
 965d2e,127.0.0.1,GET,http://localhost/SiteAnnonce/web/app_dev.php/img/blog/img4.jpg,1495726492,9a2e3e,200
 9a2e3e,127.0.0.1,GET,http://localhost/SiteAnnonce/web/app_dev.php/img/blog/img4.jpg,1495726492,,404
+<<<<<<< HEAD
 7cddea,127.0.0.1,GET,http://localhost/SiteAnnonce/web/app_dev.php/,1495729709,,200
 efdf34,127.0.0.1,GET,http://localhost/SiteAnnonce/web/app_dev.php/deposer,1495729898,,200
 66194b,127.0.0.1,GET,http://localhost/SiteAnnonce/web/app_dev.php/deposer,1495730697,,200
@@ -966,3 +967,7 @@ c57084,127.0.0.1,GET,http://localhost/SiteAnnonce/web/app_dev.php/img/blog/img4.
 04908c,127.0.0.1,GET,http://localhost/SiteAnnonce/web/app_dev.php/deposer,1495734104,,200
 f654e3,127.0.0.1,GET,http://localhost/SiteAnnonce/web/app_dev.php/deposer,1495734106,,200
 066f27,127.0.0.1,GET,http://localhost/SiteAnnonce/web/app_dev.php/offres,1495734110,,200
+=======
+714253,127.0.0.1,GET,http://localhost/SiteAnnonce/web/app_dev.php/deposer,1495731461,,200
+2fa6b3,127.0.0.1,GET,http://localhost/SiteAnnonce/web/app_dev.php/deposer,1495731462,,200
+>>>>>>> d8f7091d66640003f772e8a6d1b1a60437bf9864
