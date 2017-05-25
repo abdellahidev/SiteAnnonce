@@ -114,37 +114,9 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
             return array (  '_controller' => 'AccueilBundle\\Controller\\AccueilController::indexAction',  '_route' => 'accueil',);
         }
 
-        // contact
-        if ($pathinfo === '/contact') {
-            return array (  '_controller' => 'AccueilBundle\\Controller\\ContactController::indexAction',  '_route' => 'contact',);
-        }
-
-        if (0 === strpos($pathinfo, '/de')) {
-            // demandes
-            if ($pathinfo === '/demandes') {
-                return array (  '_controller' => 'AccueilBundle\\Controller\\DemandesController::indexAction',  '_route' => 'demandes',);
-            }
-
-            // deposer
-            if ($pathinfo === '/deposer') {
-                return array (  '_controller' => 'AccueilBundle\\Controller\\DeposerController::indexAction',  '_route' => 'deposer',);
-            }
-
-        }
-
-        // mesannonces
-        if ($pathinfo === '/mesannonces') {
-            return array (  '_controller' => 'AccueilBundle\\Controller\\MesannoncesController::indexAction',  '_route' => 'mesannonces',);
-        }
-
-        // offres
-        if ($pathinfo === '/offres') {
-            return array (  '_controller' => 'AccueilBundle\\Controller\\OffresController::indexAction',  '_route' => 'offres',);
-        }
-
-        // seconnecter
-        if ($pathinfo === '/seconnecter') {
-            return array (  '_controller' => 'AccueilBundle\\Controller\\SeconnecterController::indexAction',  '_route' => 'seconnecter',);
+        // deposer
+        if ($pathinfo === '/deposer') {
+            return array (  '_controller' => 'AccueilBundle\\Controller\\DeposerController::indexAction',  '_route' => 'deposer',);
         }
 
         // homepage
