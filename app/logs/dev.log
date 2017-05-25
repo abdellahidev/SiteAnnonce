@@ -577,4 +577,8 @@
 [2017-05-25 18:57:42] request.INFO: Matched route "deposer". {"route_parameters":{"_controller":"AccueilBundle\\Controller\\DeposerController::indexAction","_route":"deposer"},"request_uri":"http://localhost/SiteAnnonce/web/app_dev.php/deposer"} []
 [2017-05-25 18:57:42] security.INFO: Populated the TokenStorage with an anonymous Token. [] []
 [2017-05-25 18:57:43] request.INFO: Matched route "_wdt". {"route_parameters":{"_controller":"web_profiler.controller.profiler:toolbarAction","token":"2fa6b3","_route":"_wdt"},"request_uri":"http://localhost/SiteAnnonce/web/app_dev.php/_wdt/2fa6b3"} []
+<<<<<<< HEAD
+>>>>>>> bara
+=======
+[2017-05-25 19:23:10] php.DEBUG: unlink(/var/www/html/SiteAnnonce/app/cache/de~/profiler/b3/a6/2fa6b3): Permission denied {"type":2,"file":"/var/www/html/SiteAnnonce/vendor/symfony/symfony/src/Symfony/Component/Filesystem/Filesystem.php","line":178,"level":28928} []
 >>>>>>> bara
