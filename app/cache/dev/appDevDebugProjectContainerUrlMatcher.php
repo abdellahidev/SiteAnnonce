@@ -105,13 +105,18 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
 
         }
 
-        // accueil_default_index
+        // accueil
         if (rtrim($pathinfo, '/') === '') {
             if (substr($pathinfo, -1) !== '/') {
-                return $this->redirect($pathinfo.'/', 'accueil_default_index');
+                return $this->redirect($pathinfo.'/', 'accueil');
             }
 
-            return array (  '_controller' => 'AccueilBundle\\Controller\\DefaultController::indexAction',  '_route' => 'accueil_default_index',);
+            return array (  '_controller' => 'AccueilBundle\\Controller\\AccueilController::indexAction',  '_route' => 'accueil',);
+        }
+
+        // deposer
+        if ($pathinfo === '/deposer') {
+            return array (  '_controller' => 'AccueilBundle\\Controller\\DeposerController::indexAction',  '_route' => 'deposer',);
         }
 
         // homepage
