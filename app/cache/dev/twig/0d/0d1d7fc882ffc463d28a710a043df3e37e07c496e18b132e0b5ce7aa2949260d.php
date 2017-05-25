@@ -22,20 +22,20 @@ class __TwigTemplate_6d23c65c4bcabe9ae7e74f4efa4de08813aff902071292bf3a90d0234af
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_e49e2cbd8a13fbf336df5f0539df8ccf91fa4b0b703a423d0132564973bae637 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_e49e2cbd8a13fbf336df5f0539df8ccf91fa4b0b703a423d0132564973bae637->enter($__internal_e49e2cbd8a13fbf336df5f0539df8ccf91fa4b0b703a423d0132564973bae637_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "AccueilBundle:Deposer:deposer.html.twig"));
+        $__internal_5a40a5fb25fea9a3d78f6c21b3516361d9be2148e4084784b83f14a852f72149 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_5a40a5fb25fea9a3d78f6c21b3516361d9be2148e4084784b83f14a852f72149->enter($__internal_5a40a5fb25fea9a3d78f6c21b3516361d9be2148e4084784b83f14a852f72149_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "AccueilBundle:Deposer:deposer.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_e49e2cbd8a13fbf336df5f0539df8ccf91fa4b0b703a423d0132564973bae637->leave($__internal_e49e2cbd8a13fbf336df5f0539df8ccf91fa4b0b703a423d0132564973bae637_prof);
+        $__internal_5a40a5fb25fea9a3d78f6c21b3516361d9be2148e4084784b83f14a852f72149->leave($__internal_5a40a5fb25fea9a3d78f6c21b3516361d9be2148e4084784b83f14a852f72149_prof);
 
     }
 
     // line 3
     public function block_body($context, array $blocks = array())
     {
-        $__internal_2755110877945d7c7c6b44dc2b83ee12e5bb15deb71acbeca2037a9d2954ae73 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_2755110877945d7c7c6b44dc2b83ee12e5bb15deb71acbeca2037a9d2954ae73->enter($__internal_2755110877945d7c7c6b44dc2b83ee12e5bb15deb71acbeca2037a9d2954ae73_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_bdb621ba4580d32cad27acb70463061b812fec73ca5847183d753a503afe8639 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_bdb621ba4580d32cad27acb70463061b812fec73ca5847183d753a503afe8639->enter($__internal_bdb621ba4580d32cad27acb70463061b812fec73ca5847183d753a503afe8639_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
         // line 4
         echo "    
@@ -65,7 +65,7 @@ class __TwigTemplate_6d23c65c4bcabe9ae7e74f4efa4de08813aff902071292bf3a90d0234af
         
         <div class=\"span6\">
             <h4>Formuaire</h4> 
-                     Mettre ici le formulaire d'annonce à tester plus tard biensur dededededed
+                     Mettre ici le formulaire c'est bara mamadou seck
         </div>
     </div>  
 </div>
@@ -75,21 +75,21 @@ class __TwigTemplate_6d23c65c4bcabe9ae7e74f4efa4de08813aff902071292bf3a90d0234af
 
 ";
         
-        $__internal_2755110877945d7c7c6b44dc2b83ee12e5bb15deb71acbeca2037a9d2954ae73->leave($__internal_2755110877945d7c7c6b44dc2b83ee12e5bb15deb71acbeca2037a9d2954ae73_prof);
+        $__internal_bdb621ba4580d32cad27acb70463061b812fec73ca5847183d753a503afe8639->leave($__internal_bdb621ba4580d32cad27acb70463061b812fec73ca5847183d753a503afe8639_prof);
 
     }
 
     // line 41
     public function block_stylesheets($context, array $blocks = array())
     {
-        $__internal_d61b8c12051ff256d6052954f0fbe57ec24605d7421df5a03c808937c6a701d0 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_d61b8c12051ff256d6052954f0fbe57ec24605d7421df5a03c808937c6a701d0->enter($__internal_d61b8c12051ff256d6052954f0fbe57ec24605d7421df5a03c808937c6a701d0_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "stylesheets"));
+        $__internal_b3d160737d60bf44f684697979e5883315b667097981e65d1d7142e2f33ab54c = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_b3d160737d60bf44f684697979e5883315b667097981e65d1d7142e2f33ab54c->enter($__internal_b3d160737d60bf44f684697979e5883315b667097981e65d1d7142e2f33ab54c_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "stylesheets"));
 
         // line 42
         echo "
 ";
         
-        $__internal_d61b8c12051ff256d6052954f0fbe57ec24605d7421df5a03c808937c6a701d0->leave($__internal_d61b8c12051ff256d6052954f0fbe57ec24605d7421df5a03c808937c6a701d0_prof);
+        $__internal_b3d160737d60bf44f684697979e5883315b667097981e65d1d7142e2f33ab54c->leave($__internal_b3d160737d60bf44f684697979e5883315b667097981e65d1d7142e2f33ab54c_prof);
 
     }
 
@@ -148,7 +148,7 @@ class __TwigTemplate_6d23c65c4bcabe9ae7e74f4efa4de08813aff902071292bf3a90d0234af
         
         <div class=\"span6\">
             <h4>Formuaire</h4> 
-                     Mettre ici le formulaire d'annonce à tester plus tard biensur dededededed
+                     Mettre ici le formulaire c'est bara mamadou seck
         </div>
     </div>  
 </div>
