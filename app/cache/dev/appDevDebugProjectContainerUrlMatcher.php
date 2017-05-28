@@ -114,19 +114,17 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
             return array (  '_controller' => 'AccueilBundle\\Controller\\AccueilController::indexAction',  '_route' => 'accueil',);
         }
 
-        // deposer
-        if ($pathinfo === '/deposer') {
-            return array (  '_controller' => 'AccueilBundle\\Controller\\AnnonceController::deposerAction',  '_route' => 'deposer',);
-        }
+        if (0 === strpos($pathinfo, '/de')) {
+            // demandes
+            if ($pathinfo === '/demandes') {
+                return array (  '_controller' => 'AccueilBundle\\Controller\\DemandesController::indexAction',  '_route' => 'demandes',);
+            }
 
-        // contact
-        if ($pathinfo === '/contact') {
-            return array (  '_controller' => 'AccueilBundle\\Controller\\ContactController::indexAction',  '_route' => 'contact',);
-        }
+            // deposer
+            if ($pathinfo === '/deposer') {
+                return array (  '_controller' => 'AccueilBundle\\Controller\\DeposerController::indexAction',  '_route' => 'deposer',);
+            }
 
-        // demandes
-        if ($pathinfo === '/demandes') {
-            return array (  '_controller' => 'AccueilBundle\\Controller\\DemandesController::indexAction',  '_route' => 'demandes',);
         }
 
         // mesannonces
@@ -137,11 +135,6 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
         // offres
         if ($pathinfo === '/offres') {
             return array (  '_controller' => 'AccueilBundle\\Controller\\OffresController::indexAction',  '_route' => 'offres',);
-        }
-
-        // seconnecter
-        if ($pathinfo === '/seconnecter') {
-            return array (  '_controller' => 'AccueilBundle\\Controller\\SeconnecterController::indexAction',  '_route' => 'seconnecter',);
         }
 
         // homepage

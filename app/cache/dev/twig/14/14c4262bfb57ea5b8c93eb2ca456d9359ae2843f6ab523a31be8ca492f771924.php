@@ -19,8 +19,8 @@ class __TwigTemplate_7bc47cc0126fc8ebc89da3373bc9ae8509ee059cd973967e982fc1cbd92
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_1bc5396dd599ab13d1e2b6f4c35d39c4d16c955e6a9119d8ca339a23d58d45e1 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_1bc5396dd599ab13d1e2b6f4c35d39c4d16c955e6a9119d8ca339a23d58d45e1->enter($__internal_1bc5396dd599ab13d1e2b6f4c35d39c4d16c955e6a9119d8ca339a23d58d45e1_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "base.html.twig"));
+        $__internal_17b55819566a5afc4348a1ac459d22ae2ea89584a64eb9f17607698e7b31265d = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_17b55819566a5afc4348a1ac459d22ae2ea89584a64eb9f17607698e7b31265d->enter($__internal_17b55819566a5afc4348a1ac459d22ae2ea89584a64eb9f17607698e7b31265d_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "base.html.twig"));
 
         // line 1
         echo "<!DOCTYPE html>
@@ -56,35 +56,35 @@ class __TwigTemplate_7bc47cc0126fc8ebc89da3373bc9ae8509ee059cd973967e982fc1cbd92
                     <!-- Responsive navbar -->
                     <a class=\"btn btn-navbar\" data-toggle=\"collapse\" data-target=\".nav-collapse\"><span class=\"icon-bar\"></span><span class=\"icon-bar\"></span><span class=\"icon-bar\"></span>
                     </a>
-                    <h1 class=\"brand\"><a href=\"";
+                    <h3 class=\"brand\"><a href=\"";
         // line 20
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("accueil");
-        echo "\">SiteAnonnce</a></h1>
+        echo "\">SiteAnonnce</a></h3>
                     <!-- navigation -->
                     <nav class=\"pull-right nav-collapse collapse\">
                     <ul id=\"menu-main\" class=\"nav\">
-                        <li><a title=\"team\" href=\"";
+                        <li><a title=\"Accueil\" href=\"";
         // line 24
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("accueil");
         echo "\">Acueil</a></li>
-                        <li><a title=\"services\" href=\"";
+                        <li><a title=\"Déposer une annonce\" href=\"";
         // line 25
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("deposer");
         echo "\">Déposer une annonce</a></li>
-                        <li><a title=\"works\" href=\"";
+                        <li><a title=\"Consulter offres\" href=\"";
         // line 26
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("offres");
         echo "\">Offres</a></li>
-                        <li><a title=\"blog\" href=\"";
+                        <li><a title=\"Faire une demnande\" href=\"";
         // line 27
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("demandes");
         echo "\">Demandes</a></li>
-                         <li><a title=\"blog\" href=\"";
+                         <li><a title=\"Voir ses annonces\" href=\"";
         // line 28
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("mesannonces");
         echo "\">Mes Annonce</a></li>
-                        <li><a title=\"contact\" href=\"#\">Contact</a></li>
-                        <li><a title=\"blog\" href=\"#\">Seconnecter</a></li>
+                        <li><a title=\"contContacter nous\" href=\"#\">Contact</a></li>
+                        <li><a title=\"Connexion\" href=\"#\">Seconnecter</a></li>
                       <!--  <li><a href=\"page.html\">Page</a></li>-->
                     </ul>
                     </nav>
@@ -110,9 +110,10 @@ class __TwigTemplate_7bc47cc0126fc8ebc89da3373bc9ae8509ee059cd973967e982fc1cbd92
                 <li><a href=\"#\"><i class=\"icon-circled icon-bgdark icon-twitter icon-2x\"></i></a></li>
                 <li><a href=\"#\"><i class=\"icon-circled icon-bgdark icon-dribbble icon-2x\"></i></a></li>
                 <li><a href=\"#\"><i class=\"icon-circled icon-bgdark icon-pinterest icon-2x\"></i></a></li>
+                <li><a href=\"#\"><i class=\"icon-circled icon-bgdark icon-facebook icon-2x\"></i></a></li>
             </ul>
             <p class=\"copyright\">
-                &copy; Maxim Theme. All rights reserved.
+                &copy; le siteannonce. Tout droit reservé.
                 <div class=\"credits\">
                     <!-- 
                         All the links in the footer should remain intact. 
@@ -120,7 +121,7 @@ class __TwigTemplate_7bc47cc0126fc8ebc89da3373bc9ae8509ee059cd973967e982fc1cbd92
                         Licensing information: https://bootstrapmade.com/license/
                         Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Maxim
                     -->
-                    <a href=\"https://bootstrapmade.com/\">Free Bootstrap Themes</a> by BootstrapMade.com
+                    <a href=\"#\">Pour plus d'information veuillez nous contacter</a>
                 </div>
             </p>
         </div>
@@ -129,103 +130,103 @@ class __TwigTemplate_7bc47cc0126fc8ebc89da3373bc9ae8509ee059cd973967e982fc1cbd92
 <!-- ./container -->
 </footer>
         <script src=\"";
-        // line 69
+        // line 70
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("assets/vendor/js/jquery.js"), "html", null, true);
         echo "\"></script>
         <script src=\"";
-        // line 70
+        // line 71
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("assets/vendor/js/jquery.scrollTo.js"), "html", null, true);
         echo "\"></script>
         <script src=\"";
-        // line 71
+        // line 72
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("assets/vendor/js/jquery.nav.js"), "html", null, true);
         echo "\"></script>
         <script src=\"";
-        // line 72
+        // line 73
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("assets/vendor/js/jquery.localscroll-1.2.7-min.js"), "html", null, true);
         echo "\"></script>
         <script src=\"";
-        // line 73
+        // line 74
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("assets/vendor/js/bootstrap.js"), "html", null, true);
         echo "\"></script>
         <script src=\"";
-        // line 74
+        // line 75
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("assets/vendor/js/jquery.prettyPhoto.js"), "html", null, true);
         echo "\"></script>
         <script src=\"";
-        // line 75
+        // line 76
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("assets/vendor/js/isotope.js"), "html", null, true);
         echo "\"></script>
         <script src=\"";
-        // line 76
+        // line 77
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("assets/vendor/js/jquery.flexslider.js"), "html", null, true);
         echo "\"></script>
         <script src=\"";
-        // line 77
+        // line 78
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("assets/vendor/js/inview.js"), "html", null, true);
         echo "\"></script>
         <script src=\"";
-        // line 78
+        // line 79
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("assets/vendor/js/animate.js"), "html", null, true);
         echo "\"></script>
         <script src=\"";
-        // line 79
+        // line 80
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("assets/vendor/js/validate.js"), "html", null, true);
         echo "\"></script>
         <script src=\"";
-        // line 80
+        // line 81
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("assets/vendor/js/custom.js"), "html", null, true);
         echo "\"></script>
     </body>
 </html>
 ";
         
-        $__internal_1bc5396dd599ab13d1e2b6f4c35d39c4d16c955e6a9119d8ca339a23d58d45e1->leave($__internal_1bc5396dd599ab13d1e2b6f4c35d39c4d16c955e6a9119d8ca339a23d58d45e1_prof);
+        $__internal_17b55819566a5afc4348a1ac459d22ae2ea89584a64eb9f17607698e7b31265d->leave($__internal_17b55819566a5afc4348a1ac459d22ae2ea89584a64eb9f17607698e7b31265d_prof);
 
     }
 
     // line 5
     public function block_title($context, array $blocks = array())
     {
-        $__internal_06740b3b25b472f40b81f1cd954bd9d4d5c34e2a0334cf6cf280511785ba32d2 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_06740b3b25b472f40b81f1cd954bd9d4d5c34e2a0334cf6cf280511785ba32d2->enter($__internal_06740b3b25b472f40b81f1cd954bd9d4d5c34e2a0334cf6cf280511785ba32d2_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
+        $__internal_caa05405b22f3f129781483d0430d1ec7df47d287b7893e826221c3878a9dcbe = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_caa05405b22f3f129781483d0430d1ec7df47d287b7893e826221c3878a9dcbe->enter($__internal_caa05405b22f3f129781483d0430d1ec7df47d287b7893e826221c3878a9dcbe_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
 
         echo "Bienvenue, dans notre site d'annonce";
         
-        $__internal_06740b3b25b472f40b81f1cd954bd9d4d5c34e2a0334cf6cf280511785ba32d2->leave($__internal_06740b3b25b472f40b81f1cd954bd9d4d5c34e2a0334cf6cf280511785ba32d2_prof);
+        $__internal_caa05405b22f3f129781483d0430d1ec7df47d287b7893e826221c3878a9dcbe->leave($__internal_caa05405b22f3f129781483d0430d1ec7df47d287b7893e826221c3878a9dcbe_prof);
 
     }
 
     // line 6
     public function block_stylesheets($context, array $blocks = array())
     {
-        $__internal_19db98f9c6c498b35b699777e9a80cad83d079f4b24e354ba1b921e8256aa1cd = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_19db98f9c6c498b35b699777e9a80cad83d079f4b24e354ba1b921e8256aa1cd->enter($__internal_19db98f9c6c498b35b699777e9a80cad83d079f4b24e354ba1b921e8256aa1cd_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "stylesheets"));
+        $__internal_4873010ee61c6319f518935868481ac9344100df2075d5b018887699fcbbcca9 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_4873010ee61c6319f518935868481ac9344100df2075d5b018887699fcbbcca9->enter($__internal_4873010ee61c6319f518935868481ac9344100df2075d5b018887699fcbbcca9_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "stylesheets"));
 
         
-        $__internal_19db98f9c6c498b35b699777e9a80cad83d079f4b24e354ba1b921e8256aa1cd->leave($__internal_19db98f9c6c498b35b699777e9a80cad83d079f4b24e354ba1b921e8256aa1cd_prof);
+        $__internal_4873010ee61c6319f518935868481ac9344100df2075d5b018887699fcbbcca9->leave($__internal_4873010ee61c6319f518935868481ac9344100df2075d5b018887699fcbbcca9_prof);
 
     }
 
     // line 38
     public function block_body($context, array $blocks = array())
     {
-        $__internal_24103c533a3bad19b4f39ff9b05398c1a0a544d3305cc60b60999cb31cbc84d7 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_24103c533a3bad19b4f39ff9b05398c1a0a544d3305cc60b60999cb31cbc84d7->enter($__internal_24103c533a3bad19b4f39ff9b05398c1a0a544d3305cc60b60999cb31cbc84d7_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_d33e7ee23fcc584343a218007f338d8efeb7439d8be99a2e47461e4042f9910d = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_d33e7ee23fcc584343a218007f338d8efeb7439d8be99a2e47461e4042f9910d->enter($__internal_d33e7ee23fcc584343a218007f338d8efeb7439d8be99a2e47461e4042f9910d_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
         
-        $__internal_24103c533a3bad19b4f39ff9b05398c1a0a544d3305cc60b60999cb31cbc84d7->leave($__internal_24103c533a3bad19b4f39ff9b05398c1a0a544d3305cc60b60999cb31cbc84d7_prof);
+        $__internal_d33e7ee23fcc584343a218007f338d8efeb7439d8be99a2e47461e4042f9910d->leave($__internal_d33e7ee23fcc584343a218007f338d8efeb7439d8be99a2e47461e4042f9910d_prof);
 
     }
 
     // line 39
     public function block_javascripts($context, array $blocks = array())
     {
-        $__internal_82e0b681cd0b699a33c025d99c6c311ffe7e5ef4feabead281f35580b6f57533 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_82e0b681cd0b699a33c025d99c6c311ffe7e5ef4feabead281f35580b6f57533->enter($__internal_82e0b681cd0b699a33c025d99c6c311ffe7e5ef4feabead281f35580b6f57533_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "javascripts"));
+        $__internal_f886874e8ac3c9470a3349418e2ccc3f026d195bb23cc006b9b5455e4cb03240 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_f886874e8ac3c9470a3349418e2ccc3f026d195bb23cc006b9b5455e4cb03240->enter($__internal_f886874e8ac3c9470a3349418e2ccc3f026d195bb23cc006b9b5455e4cb03240_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "javascripts"));
 
         
-        $__internal_82e0b681cd0b699a33c025d99c6c311ffe7e5ef4feabead281f35580b6f57533->leave($__internal_82e0b681cd0b699a33c025d99c6c311ffe7e5ef4feabead281f35580b6f57533_prof);
+        $__internal_f886874e8ac3c9470a3349418e2ccc3f026d195bb23cc006b9b5455e4cb03240->leave($__internal_f886874e8ac3c9470a3349418e2ccc3f026d195bb23cc006b9b5455e4cb03240_prof);
 
     }
 
@@ -241,7 +242,7 @@ class __TwigTemplate_7bc47cc0126fc8ebc89da3373bc9ae8509ee059cd973967e982fc1cbd92
 
     public function getDebugInfo()
     {
-        return array (  222 => 39,  211 => 38,  200 => 6,  188 => 5,  177 => 80,  173 => 79,  169 => 78,  165 => 77,  161 => 76,  157 => 75,  153 => 74,  149 => 73,  145 => 72,  141 => 71,  137 => 70,  133 => 69,  102 => 40,  99 => 39,  97 => 38,  84 => 28,  80 => 27,  76 => 26,  72 => 25,  68 => 24,  61 => 20,  47 => 9,  43 => 8,  38 => 7,  36 => 6,  32 => 5,  26 => 1,);
+        return array (  223 => 39,  212 => 38,  201 => 6,  189 => 5,  178 => 81,  174 => 80,  170 => 79,  166 => 78,  162 => 77,  158 => 76,  154 => 75,  150 => 74,  146 => 73,  142 => 72,  138 => 71,  134 => 70,  102 => 40,  99 => 39,  97 => 38,  84 => 28,  80 => 27,  76 => 26,  72 => 25,  68 => 24,  61 => 20,  47 => 9,  43 => 8,  38 => 7,  36 => 6,  32 => 5,  26 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -273,17 +274,17 @@ class __TwigTemplate_7bc47cc0126fc8ebc89da3373bc9ae8509ee059cd973967e982fc1cbd92
                     <!-- Responsive navbar -->
                     <a class=\"btn btn-navbar\" data-toggle=\"collapse\" data-target=\".nav-collapse\"><span class=\"icon-bar\"></span><span class=\"icon-bar\"></span><span class=\"icon-bar\"></span>
                     </a>
-                    <h1 class=\"brand\"><a href=\"{{ path('accueil') }}\">SiteAnonnce</a></h1>
+                    <h3 class=\"brand\"><a href=\"{{ path('accueil') }}\">SiteAnonnce</a></h3>
                     <!-- navigation -->
                     <nav class=\"pull-right nav-collapse collapse\">
                     <ul id=\"menu-main\" class=\"nav\">
-                        <li><a title=\"team\" href=\"{{ path('accueil') }}\">Acueil</a></li>
-                        <li><a title=\"services\" href=\"{{ path('deposer') }}\">Déposer une annonce</a></li>
-                        <li><a title=\"works\" href=\"{{ path('offres') }}\">Offres</a></li>
-                        <li><a title=\"blog\" href=\"{{ path('demandes') }}\">Demandes</a></li>
-                         <li><a title=\"blog\" href=\"{{ path('mesannonces') }}\">Mes Annonce</a></li>
-                        <li><a title=\"contact\" href=\"#\">Contact</a></li>
-                        <li><a title=\"blog\" href=\"#\">Seconnecter</a></li>
+                        <li><a title=\"Accueil\" href=\"{{ path('accueil') }}\">Acueil</a></li>
+                        <li><a title=\"Déposer une annonce\" href=\"{{ path('deposer') }}\">Déposer une annonce</a></li>
+                        <li><a title=\"Consulter offres\" href=\"{{ path('offres') }}\">Offres</a></li>
+                        <li><a title=\"Faire une demnande\" href=\"{{ path('demandes') }}\">Demandes</a></li>
+                         <li><a title=\"Voir ses annonces\" href=\"{{ path('mesannonces') }}\">Mes Annonce</a></li>
+                        <li><a title=\"contContacter nous\" href=\"#\">Contact</a></li>
+                        <li><a title=\"Connexion\" href=\"#\">Seconnecter</a></li>
                       <!--  <li><a href=\"page.html\">Page</a></li>-->
                     </ul>
                     </nav>
@@ -304,9 +305,10 @@ class __TwigTemplate_7bc47cc0126fc8ebc89da3373bc9ae8509ee059cd973967e982fc1cbd92
                 <li><a href=\"#\"><i class=\"icon-circled icon-bgdark icon-twitter icon-2x\"></i></a></li>
                 <li><a href=\"#\"><i class=\"icon-circled icon-bgdark icon-dribbble icon-2x\"></i></a></li>
                 <li><a href=\"#\"><i class=\"icon-circled icon-bgdark icon-pinterest icon-2x\"></i></a></li>
+                <li><a href=\"#\"><i class=\"icon-circled icon-bgdark icon-facebook icon-2x\"></i></a></li>
             </ul>
             <p class=\"copyright\">
-                &copy; Maxim Theme. All rights reserved.
+                &copy; le siteannonce. Tout droit reservé.
                 <div class=\"credits\">
                     <!-- 
                         All the links in the footer should remain intact. 
@@ -314,7 +316,7 @@ class __TwigTemplate_7bc47cc0126fc8ebc89da3373bc9ae8509ee059cd973967e982fc1cbd92
                         Licensing information: https://bootstrapmade.com/license/
                         Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Maxim
                     -->
-                    <a href=\"https://bootstrapmade.com/\">Free Bootstrap Themes</a> by BootstrapMade.com
+                    <a href=\"#\">Pour plus d'information veuillez nous contacter</a>
                 </div>
             </p>
         </div>
